@@ -1,42 +1,22 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+.aurora {
+  position: fixed;
+  inset: -30vh -15vw auto;
+  height: 60vh;
+  filter: blur(80px);
+  pointer-events: none;
+  opacity: 0.5;
+  transform: translate3d(0, 0, 0);
+  z-index: -1;
+  background: radial-gradient(circle at 20% 20%, rgba(24, 119, 242, 0.6), transparent 65%),
+    radial-gradient(circle at 80% 30%, rgba(0, 149, 246, 0.45), transparent 60%);
 }
