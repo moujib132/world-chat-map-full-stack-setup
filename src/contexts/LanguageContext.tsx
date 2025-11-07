@@ -15,6 +15,7 @@ const translations: Record<Language, Translations> = {
     continueGuest: 'Continue as Guest',
     localMap: 'Local Map',
     globalLounge: 'Global Lounge',
+    startNewVibe: 'Start a new vibe',
     features: 'Features',
     featureLocalChat: 'Local Chat',
     featureLocalChatDesc: 'Chat with people within 1-10 km radius',
@@ -30,6 +31,9 @@ const translations: Record<Language, Translations> = {
     featureMultiLangDesc: 'English and Arabic support',
     allRightsReserved: 'All rights reserved.',
     enterMap: 'Enter Map',
+    switchLanguage: 'Switch language',
+    toggleTheme: 'Toggle theme',
+    explore: 'Explore',
   },
   ar: {
     heroTitle: 'تواصل مع الأشخاص من حولك',
@@ -38,6 +42,7 @@ const translations: Record<Language, Translations> = {
     continueGuest: 'متابعة كضيف',
     localMap: 'الخريطة المحلية',
     globalLounge: 'الصالة العالمية',
+    startNewVibe: 'ابدأ موجة جديدة',
     features: 'المميزات',
     featureLocalChat: 'دردشة محلية',
     featureLocalChatDesc: 'دردش مع الأشخاص ضمن نطاق 1-10 كم',
@@ -53,6 +58,9 @@ const translations: Record<Language, Translations> = {
     featureMultiLangDesc: 'دعم اللغة الإنجليزية والعربية',
     allRightsReserved: 'جميع الحقوق محفوظة.',
     enterMap: 'دخول الخريطة',
+    switchLanguage: 'تبديل اللغة',
+    toggleTheme: 'تغيير الوضع',
+    explore: 'استكشف',
   },
 };
 
